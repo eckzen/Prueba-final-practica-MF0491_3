@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Erick Montoya">
+    <title>Calculadora Nutricional</title>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="nav-main">
+            <!-- Logo -->
+            <a href="index.html"><img src="img/Spartan-LOGO-HD-00.png" alt="TechNews Logo" class="nav-brand"></a>
+            <!-- Left Nav -->
+            <ul class="nav-menu">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Training</a>
+                </li>
+                <li>
+                    <a href="objetivos.html">Objetivos</a>
+                </li>
+                <li>
+                    <a href="rutinas.html">Rutinas</a>
+                </li>
+                <li>
+                    <a href="tuprogreso.html">Progreso</a>
+                </li>
+            </ul>
+
+            <!-- Right Nav -->
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+
+        <header class="showcase">
+            <h2>Buenas noticias!</h2>
+            <h4>¡Alcanza tu máximo potencial en nuestro gimnasio! Únete hoy y conviértete en la mejor versión de ti mismo. ¡Juntos, lograremos tus metas de fitness y bienestar!</h4>
+            <a href="#" class="btn">
+          Inscríbete! <i class="fas fa-chevron-right"></i>
+        </a>
+        </header>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- ZONAPRUEBA-->
+
+<div class="gen-entrena">
+    
+    <h1>Calculadora Nutricional</h1>
+
+    <div>
+        <label for="alimento">Seleccionar alimento:</label>
+        <select id="alimento">
+            <option value="manzana">Manzana</option>
+            <option value="espinaca">Espinaca</option>
+            <option value="pollo">Pollo</option>
+        </select>
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" min="1" value="1">
+        <button onclick="agregarAlimento()">Agregar</button>
+    </div>
+
+    <div id="resultados">
+        <h2>Contenido Nutricional Total</h2>
+        <p id="total-calorias">Calorías: 0</p>
+        <p id="total-proteinas">Proteínas: 0g</p>
+        <p id="total-carbohidratos">Carbohidratos: 0g</p>
+        <p id="total-grasas">Grasas: 0g</p>
+        <p id="objetivos-mensaje"></p>
+    </div>
+
+</div>
+      <!--FINPRUEBA-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- third card -->
+        <section class="cards-banner-two">
+            <div class="content">
+                <h2>NO PAIN NO GAIN</h2>
+                <p>¡Transforma tu sudor en éxito! ¡El gimnasio te espera para que construyas el mejor yo posible!</p>
+                <a href="#" class="btn">Learn More <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </section>
+
+        <!-- Follow -->
+        <section class="social">
+            <p>Follow SGym</p>
+            <div class="links">
+                <a href="https://facebook.com">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://linkdin.com">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="footer-links">
+        <div class="footer-container">
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title One</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Fitness</a>
+                </li>
+                <li>
+                    <a href="#">Fitness</a>
+                </li>
+                <li>
+                    <a href="#">Fitness</a>
+                </li>
+                <li>
+                    <a href="#">Fitness</a>
+                </li>
+                <li>
+                    <a href="#">Fitness</a>
+                </li>
+                <li>
+                    <a href="#">CryptoFitness</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title Two</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Machine Learning</a>
+                </li>
+                <li>
+                    <a href="#">Artificial Intelligence</a>
+                </li>
+                <li>
+                    <a href="#">Quantum Computing</a>
+                </li>
+                <li>
+                    <a href="#">Startup</a>
+                </li>
+                <li>
+                    <a href="#">Cryptocurrencies</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title Three</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Machine Learning</a>
+                </li>
+                <li>
+                    <a href="#">Artificial Intelligence</a>
+                </li>
+                <li>
+                    <a href="#">Quantum Computing</a>
+                </li>
+                <li>
+                    <a href="#">Startup</a>
+                </li>
+                <li>
+                    <a href="#">Cryptocurrencies</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <h3>Title Four</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Blockchain</a>
+                </li>
+                <li>
+                    <a href="#">Machine Learning</a>
+                </li>
+                <li>
+                    <a href="#">Artificial Intelligence</a>
+                </li>
+                <li>
+                    <a href="#">Quantum Computing</a>
+                </li>
+                <li>
+                    <a href="#">Startup</a>
+                </li>
+                <li>
+                    <a href="#">Cryptocurrencies</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h3> &copy; 2024 SGym</h3>
+    </footer>
+
+    <!-- Scroll Reveal y Calc -->
+
+
+    <script src="app.js"></script>
+    <script src="screveal.js"></script>
+</body>
+</html>
