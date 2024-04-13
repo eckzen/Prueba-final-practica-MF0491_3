@@ -260,6 +260,17 @@
 
 
     <script src="app.js"></script>
-    <script src="screveal.js"></script>
+    <script>
+try {
+    // Intentamos realizar una división por cero
+    const resultado = 10 / 0;
+    console.log("El resultado es:", resultado);
+} catch (error) {
+    // Capturamos cualquier error que pueda ocurrir durante la ejecución del bloque try
+    console.error("Se produjo un error:", error.message);
+} finally {
+    // Este bloque se ejecutará siempre, tanto si hay un error como si no
+    console.log("Fin del programa");
+    </script>
 </body>
 </html>
